@@ -1,0 +1,48 @@
+import { Shop } from '@/types';
+
+export const initialShops: Shop[] = [
+  {
+    id: 'shop-1',
+    ownerId: 'shopkeeper-1',
+    name: 'Fresh Mart',
+    category: 'Supermarket',
+    address: '123 Market Street',
+    deliveryTime: '10 mins',
+    rating: 4.5,
+    isApproved: true,
+    createdAt: new Date().toISOString(),
+  },
+  {
+    id: 'shop-2',
+    ownerId: 'shopkeeper-2',
+    name: 'Green Basket',
+    category: 'Fruits & Vegetables',
+    address: '45 Garden Road',
+    deliveryTime: '15 mins',
+    rating: 4.2,
+    isApproved: true,
+    createdAt: new Date().toISOString(),
+  },
+  {
+    id: 'shop-3',
+    ownerId: 'shopkeeper-3',
+    name: 'Daily Dairy',
+    category: 'Dairy',
+    address: '78 Milk Lane',
+    deliveryTime: '8 mins',
+    rating: 4.8,
+    isApproved: true,
+    createdAt: new Date().toISOString(),
+  },
+  {
+    id: 'shop-4',
+    ownerId: 'shopkeeper-4',
+    name: 'Snack Corner',
+    category: 'General Store',
+    address: '90 Main Road',
+    deliveryTime: '12 mins',
+    rating: 4.0,
+    isApproved: true,
+    createdAt: new Date().toISOString(),
+  },
+];
